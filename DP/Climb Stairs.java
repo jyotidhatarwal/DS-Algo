@@ -17,7 +17,7 @@ public class Main {
         if( n<0){
             return 0;
         }
-        
+        // climbing stairs
         int p1 = climb(n-1);
         int p2 = climb(n-2);
         int p3 = climb(n-3);
